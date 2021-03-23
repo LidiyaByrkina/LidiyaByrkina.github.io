@@ -1,0 +1,338 @@
+@font-face
+{
+    font-family: Aqum;/* Имя шрифта */
+    src: url(../style/fonts/Aqum.ttf); /* Путь к файлу со шрифтом */
+}
+
+@font-face
+{
+    font-family: Gilroy;
+    src: url(../style/fonts/gilroy-regular.ttf); 
+}
+
+@import url(https://allfont.ru/allfont.css?fonts=roboto-thin);
+
+*  {
+    margin: 0;  font-family: 'Roboto Thin', arial;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: #e4e4e4;
+    max-width: 2246px;
+    box-shadow: 0 0 30px 8px rgba(0, 0, 0, 0.44);
+    margin: 0 auto;
+}
+
+header {
+    height: 196px;
+    background-color: #e4e4e4;
+}
+
+.menu{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    position: absolute;
+    width: 145px;
+    height: 115px;
+    margin: 46px  0 35px 100px;
+}
+
+.logo-text{
+    position: absolute;
+    width: 323px;
+    height: 84px;
+    color: #191919;
+    font-family: "Aqum", sans-serif;
+    font-size: 50px;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: -1.5px;  
+    text-decoration: none;
+    margin: 40px 0 54px 261px;
+}
+
+li{
+    list-style: none;  
+    text-decoration: none;
+}
+
+a {
+    color: #000 !important;
+    text-decoration: none;
+  }
+
+.menu{
+    height: 27px;
+    max-width: 1307px;
+    padding-right: 0;
+    text-align: right;
+    padding: 84px 0 85px 840px;
+}
+
+.menu-item{
+    height: 27px;
+    color: #000000;
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    text-align: right;
+    letter-spacing: 0.63px; 
+    display: inline;
+    color: #000 !important;
+    text-decoration: none;
+}
+
+.menu-item-logo{
+    width: 484px;
+    height: 115px;
+}
+
+h1{
+    width: 1081px;
+    height: 61px;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-size: 63px;
+    text-align: left;
+}
+
+/*Главная страница*/
+.cyber__club{
+    width: 2246px;
+    height: 1240px;
+    background-color: rgba(0, 0, 0, 0.31);
+    background-image: url(/img/CyberClub-bakground-image.png);
+    background-size: cover;
+}
+
+.cyber__club-title{
+    width: auto;
+    height: 61px;
+    color: #ffffff;
+    font-family: "Roboto",sans-serif;
+    font-size: 63px;
+    text-align: left;
+    line-height: 66.67px;
+    letter-spacing: 3.13px;
+    padding: 278px 901px 61px  99px;
+}
+
+.cyber__club-text{
+    width: 1300px;
+    height: 507px;
+    color: #ffffff;
+    font-weight: 300px;
+    font-family: "Roboto", sans-serif;
+    font-size: 42px;
+    text-align: left;
+    line-height: 66.67px;
+    letter-spacing: 2.08px;
+    margin: 0 1176px 333px 102px;
+}
+
+h2{
+    width: 468px;
+    height: 61px;
+    color: #2d2929;
+    font-family: "Gilroy", sans-serif;
+    font-size: 83px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400px;
+    margin: 223px 889px 150px 889px;
+}
+
+.news__container{
+    height: 1092px;
+}
+
+.partners__container{
+    height: 484px;
+}
+
+.contact__container{
+    height: 1177px;
+}
+
+.news-list{
+    text-align: center;
+    padding:95px  111px ;
+}
+
+.news-item{
+    border: none;
+    display: inline-block;
+    margin: 16px 16px 16px 16px;
+}
+
+.partners__container, .news__container, .contact__container{
+   background-color:  #474747;
+   box-shadow: 0 0 30px 8px rgba(0, 0, 0, 0.44);
+   opacity: 0.9px;
+}
+
+.contact-text{
+    height: 308px;
+    color: #ffffff;
+    font-family: 'Roboto',sans-serif;
+    font-size: 37px;
+    font-weight: 300px;
+    line-height: 45.8px;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 2.63px;
+    padding: 111px 114px 105px 100px;
+}
+
+.logos-image{
+    width: 1761px;
+    height: 290px;
+    margin: 95px 248px 99px 237px;
+}
+
+.chgu-address{
+    padding: 0 102px 109px 99px;
+}
+
+footer{
+    margin-top: 434px;
+    height: 178px;
+    background-color: #363636;
+    opacity: 0.9px;
+    box-shadow: 0 0 30px 8px rgba(0, 0, 0, 0.44);
+}
+
+.footer-text{
+    height: 37px;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-size: 38px;
+    text-align: left;
+    padding: 68px 1211px 73px 217px;
+}
+/*Главная страница*/
+
+/*Поиск коианды*/
+.panel{
+    height: 82px;
+    border: 1px solid #000000;
+    background-color: rgba(65, 66, 66, 0.71);
+    background-color: #767676;
+}
+
+.panel-link{
+    height: 21px;
+    color: #000000;
+    font-family: "Roboto", sans-serif;
+    font-size: 29px;
+    font-weight: 400px;
+    text-align: right;
+    letter-spacing: 0.73px;
+    text-decoration: none;
+}
+
+.title__wrapper{
+    height: 605px;
+    box-shadow: 2px 13px 112px 21px rgba(0, 0, 0, 0.15);
+    border: 1px solid #000000;
+    background-color: #000000
+}
+
+.title-text{
+    height: 72px;
+    color: #ffffff;
+    font-family: "Gilroy",sans-serif;
+    font-size: 83px;
+    font-weight: 400px;
+    line-height: 434.09px;
+    text-align: center;
+    letter-spacing: 12.51px;
+    margin-top: 434px;
+}
+
+.team__search{
+    height: 611px;
+    box-shadow: 0 0 30px 8px rgba(0, 0, 0, 0.44);
+    opacity: 0.9;
+    background-color: #474747;
+}
+/*Поиск коианды*/
+
+/*Деятельность*/
+.activity__wrapper{
+    background-color:#e4e4e4;
+    padding-top: 870px;
+}
+/*Деятельность*/
+
+
+/*Партнерство*/
+
+/*Партнерство*/
+
+/*Руководство*/
+
+/*Руководство*/
+
+/*Вход*/
+.login-label, .password-label{
+    height: 27px;
+    color: #1f1f1f;
+    font-family: "Roboto", sans-serif;
+    font-size: 37px;
+    font-weight: 300px;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 45.83px;
+    text-align: center;
+    letter-spacing: 2.63px;
+    padding: 219px 1329px 15px 796px;
+}
+.login-label{
+    padding: 219px 1329px 15px 796px;
+}
+
+.login, .password{
+    width: 660px;
+    height: 77px;
+    box-shadow: 1px 5px 22px 2px rgba(0, 0, 0, 0.19);
+    background-color: #ffffff;
+    text-align: center; 
+    margin: 0 796px  0 793px;
+}
+
+.vhod-button,.registration-button{
+    list-style: none;
+    display: inline;
+}
+
+.vhod, .registration{
+    display: block;
+    border: none;
+    padding: 14px 28px;
+    cursor: pointer;
+    width: 280px;
+    height: 77px;
+    box-shadow: 1px 5px 22px 2px rgba(0, 0, 0, 0.19);
+    background-color: #2c2c2c;
+    color: #ffffff;
+    font-family: "Roboto",sans-serif;
+    font-size: 29px;
+    font-weight: 300px;
+    line-height: 45.83px;
+    text-align: center;
+    letter-spacing: 2.04px;
+}
+/*Вход*/
+
+
+
+
+
